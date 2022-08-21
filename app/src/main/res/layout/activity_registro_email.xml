@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fuente" />
+        <EditText
+            android:id="@+id/nombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name:"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:fontFamily="@font/semibol"
+            android:drawableLeft="@drawable/icono_nombre"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="3dp" />
+
+        <EditText
+            android:id="@+id/apellidos"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="last names:"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="24sp"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/semibol"
+            android:drawableLeft="@drawable/icono_nombre"
+
+
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Email:"
+            android:gravity="center"
+            android:padding="1dp"
+            android:textSize="24sp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/semibol"
+            android:drawableLeft="@drawable/email"
+
+
+            />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Cell phone:"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:fontFamily="@font/semibol"
+
+            />
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icono_password"
+            android:fontFamily="@font/semibol"
+            android:gravity="center"
+            android:hint="password:"
+            android:inputType="textPassword"
+            android:padding="3dp"
+            android:textSize="24dp"
+
+            />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="confirm password:"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/icono_password"
+            android:fontFamily="@font/semibol"
+            />
+        <Button
+            android:id="@+id/nuevo_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/semibol"
+            android:text="registrar"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

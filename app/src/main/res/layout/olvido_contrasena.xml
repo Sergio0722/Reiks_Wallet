@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+        <EditText
+            android:id="@+id/contraseñanu"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Contraseña"
+            android:textColorHint="@color/black"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="24dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/icono_password"
+           />
+
+        <EditText
+            android:id="@+id/confirmar_contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icono_password"
+            android:gravity="left"
+            android:text="confirmar contraseña"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <Button
+            android:id="@+id/cambio_contraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cambiar la contraseña"
+            android:fontFamily="@font/semibol"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+|
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#1B5AA8"
+    >
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:text=" REIKS WALLET!"
+           android:fontFamily="@font/semibol"
+           android:textColor="@color/white"
+           android:textSize="26sp"
+           android:textStyle="bold"
+
+            />
+       <ImageView
+           android:id="@+id/list_item_scate_icon"
+           android:layout_width="match_parent"
+           android:layout_height="149dp"
+           android:padding="20dp"
+           android:src="@drawable/imagenlogo" />
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="20dp"
+           android:textColor="@color/black"
+           android:hint="Correo electronico"
+           android:fontFamily="@font/semibol"
+           android:inputType="textEmailAddress"
+
+           />
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="20dp"
+           android:hint="contraseña"
+           android:inputType="textPassword"
+           android:fontFamily="@font/semibol"
+           />
+
+       <Button
+           android:layout_width="288dp"
+           android:layout_height="46dp"
+
+           android:layout_marginStart="56dp"
+           android:backgroundTint="#041319"
+           android:text="ingresar"
+           app:cornerRadius="20dp"
+           app:layout_constraintStart_toStartOf="parent"
+           tools:layout_editor_absoluteY="291dp"
+           android:textColor="#ffffff"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"/>
+       <Button
+           android:layout_width="290dp"
+           android:layout_height="50dp"
+           android:layout_marginStart="59dp"
+           android:backgroundTint="#176E9E"
+           android:text="nuevo usuario"
+           app:cornerRadius="20dp"
+           app:layout_constraintStart_toStartOf="parent"
+           tools:layout_editor_absoluteY="359dp"
+           android:id="@+id/registro_email"/>
+
+       <Button
+           android:layout_width="288dp"
+           android:layout_height="46dp"
+           android:id="@+id/olvido_contraseña"
+           android:layout_marginStart="60dp"
+           android:backgroundTint="#2196F3"
+           android:text="olvide la contraseña"
+           app:cornerRadius="20dp"
+           app:layout_constraintStart_toStartOf="parent"
+           tools:layout_editor_absoluteY="459dp" />
+
+
+
+
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
